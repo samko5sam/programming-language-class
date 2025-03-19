@@ -7,3 +7,6 @@
 [程式碼](./0313_AIGame.ipynb)
 
 小遊戲：讓兩個AI進行猜字詞的遊戲，看看誰答對的比較多
+
+_🔽 簡介簡報_
+[![Introduction Slides](./intro/wtw/wtw.jpg)](https://samko5sam.github.io/programming-language-class/wtw.html)
