@@ -10,3 +10,15 @@
 
 _🔽 簡介簡報_
 [![Introduction Slides](./intro/wtw/wtw.jpg)](https://samko5sam.github.io/programming-language-class/wtw.html)
+
+## 作業二
+
+[程式碼](./0320_DataVisualization.ipynb)
+
+繪製圖表看EFT VOO的表現
+
+![VOO ETF 收盤價趨勢](https://github.com/user-attachments/assets/442df4ed-eab5-44a0-8840-a8fedddcc5db)
+
+![VOO ETF 移動平均線與布林帶](https://github.com/user-attachments/assets/7b68d0c0-43a4-4ba8-ad60-eb6bec18b754)
+
+![VOO ETF 成交量加權價格變動](https://github.com/user-attachments/assets/522f7e40-b611-466d-bea5-c5b44a45d88a)
