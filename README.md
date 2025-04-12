@@ -38,3 +38,9 @@ _🔽 簡介簡報_
 
 [程式碼](./0410_TextProcessing.ipynb) | [Colab](https://colab.research.google.com/github/samko5sam/programming-language-class/blob/main/0410_TextProcessing.ipynb)
 
+- 作業資料：ㄒ一ㄚ皮上的某米PD充電器評論
+- 處理說明：從試算表讀入資料後，使用 Jieba 工具斷詞，為處理部分簡體字留言，蒐集完所有字詞後使用 OpenCC 將簡體字轉成繁體方便統計。
+
+![word-bar](https://github.com/user-attachments/assets/9b52e470-7a8d-44da-9803-447ab8a7b324)
+![word-cloud](https://github.com/user-attachments/assets/00095a1d-dda8-4476-9ab5-ad17cc9caf80)
+
