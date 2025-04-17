@@ -34,10 +34,12 @@ _🔽 簡介簡報_
 
 [程式碼](./0327_Visualization.ipynb) | [Colab](https://colab.research.google.com/github/samko5sam/programming-language-class/blob/main/0327_Visualization.ipynb)
 
-![newplot](https://github.com/user-attachments/assets/b41916e9-8019-405c-ae7e-462a84b3e38a)
-![newplot (1)](https://github.com/user-attachments/assets/33608e7d-ee05-4c24-b530-0a00308a4676)
+<!--![newplot](https://github.com/user-attachments/assets/b41916e9-8019-405c-ae7e-462a84b3e38a)
+![newplot (1)](https://github.com/user-attachments/assets/33608e7d-ee05-4c24-b530-0a00308a4676)-->
+![newplot (4)](https://github.com/user-attachments/assets/59c1993e-2d8d-4f6d-ab97-f19f20eb6757)
+*Chicago sex offenders*
 ![newplot (3)](https://github.com/user-attachments/assets/bd57f765-1c28-4ec1-a6fd-bdb1e5a51523)
-
+*Phones in India*
 
 ## 作業四
 
