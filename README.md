@@ -1,6 +1,8 @@
 # Programming Language
 1132 程式語言
 
+授課教師：蔡芸琤老師
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 
 - [Programming Language](#programming-language)
@@ -34,10 +36,36 @@ _🔽 簡介簡報_
 
 [程式碼](./0327_Visualization.ipynb) | [Colab](https://colab.research.google.com/github/samko5sam/programming-language-class/blob/main/0327_Visualization.ipynb)
 
-<!--![newplot](https://github.com/user-attachments/assets/b41916e9-8019-405c-ae7e-462a84b3e38a)
-![newplot (1)](https://github.com/user-attachments/assets/33608e7d-ee05-4c24-b530-0a00308a4676)-->
+PCA 主要分析步驟：
+
+1. **選擇特徵**：選擇用於 PCA 與 K-Means 聚類分析的數值型特徵，如 `AGE`、`HEIGHT`、`WEIGHT`等等。
+
+2. **資料預處理（標準化）**：使用 `StandardScaler` 對選擇的數據進行標準化處理，以便確保每個特徵在同等尺度下進行分析。
+
+3. **執行 PCA 降維**：
+   - 利用 scikit-learn 的 `PCA` 來計算數據集的主成分。
+   - 調用 `fit_transform` 方法計算主成分，並獲取特徵空間中的數據表示。
+   - 獲取解釋變異比例，這能幫助判斷選取多少主成分是合適的。
+
+6. **Kmeans 分群**：
+   - 確定主成分數量後，得到降維後的新數據表示。
+   - 使用 Kmeans 進行分群。
+
 ![newplot (4)](https://github.com/user-attachments/assets/59c1993e-2d8d-4f6d-ab97-f19f20eb6757)
 *Chicago sex offenders*
+
+K-means 分群的結果：
+
+1.  **分群基礎**：第一張圖顯示了使用 K-means 算法將芝加哥性犯罪者資料（經過 PCA 降維後）分成的四個群組（用不同顏色表示）。
+
+2.  **維度意義**：透過權重圖可以知道：
+    * **X 軸（主成分 1）** 主要代表 **體型大小**（正向代表較重、較高）。
+    * **Y 軸（主成分 2）** 主要代表 **年齡**（正向代表較年長）。
+
+3.  **群組特徵**：因此，這四個群組是 K-means 根據個體的 **體型大小** 和 **年齡** 的組合差異找出來的：
+    * **左側群組（黃色、紫色）**：體型相對較小（X 軸值低）。其中，黃色群組年齡較大（Y 軸值高），紫色群組年齡較小（Y 軸值低）。
+    * **右側群組（藍綠色、深綠/藍色）**：體型相對較大（X 軸值高）。這兩個群組在 Y 軸（年齡）上有較廣的分佈，表示群組內部年齡差異較大，但整體體型偏大。
+
 ![newplot (3)](https://github.com/user-attachments/assets/bd57f765-1c28-4ec1-a6fd-bdb1e5a51523)
 *Phones in India*
 
